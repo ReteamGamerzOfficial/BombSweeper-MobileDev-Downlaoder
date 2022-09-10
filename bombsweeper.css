@@ -1,13 +1,17 @@
 #heading{
   height: 50px;
   font-family:'Courier New', Courier, monospace ;
-  color: whitesmoke;
+  color: black;
+  font-weight: bolder;
 }
 
 hr {
  height: 2px;
  border: 2px solid red;
- 
+}
+
+div {
+  border-top: 4px solid red;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
@@ -21,7 +25,6 @@ html,body{
   display: grid;
   height: 100%;
   place-items: center;
-  background: #000;
   overflow: hidden;
 }
 button{
